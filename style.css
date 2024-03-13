@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: Arial, 'sans-serif';
+
+  background-image: url(./image/imagemFundo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.path {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+  gap: 4rem;
+
+  font-size: 2.4rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,26 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.box h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+
+  margin-bottom: 2rem;
+}
+
+.box button {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
